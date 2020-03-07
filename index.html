@@ -36,10 +36,16 @@
       .container { max-width: 960px; }
       .page-header { max-width: 700px; }
       .card-deck .card { min-width: 220px; }
+      .card-deck .card-body { padding: 20px 2px; }
 
       /* Words List */
       .words-list li b::before { content: ':'; }
       .words-list li:last-child { display: none; }
+
+      /* Special Icons */
+      .words-list li a.wiki {
+        float: left; display: block; width: 16px; height: 16px; margin-top: 2px;
+        background: no-repeat center/90% url('/images/wikipedia.png');}
     </style>
 
   </head>
@@ -84,7 +90,7 @@
               <li>متن‌باز <b>Open Source</b></li>
               <li class="verified">شبکه <b>Network</b></li>
               <li>مرکز داده <b>Data Center</b></li>
-              <li>کارساز <b>Server</b></li>
+              <li>کارساز <b>Server</b> <a class="wiki" target="_blank" href="https://fa.wikipedia.org/wiki/%D8%B3%D8%B1%D9%88%D8%B1_(%D8%B1%D8%A7%DB%8C%D8%A7%D9%86%D9%87)"></a></li>
               <li> <b></b></li>
             </ul>
           </div>
@@ -142,6 +148,7 @@
               <li>سکو <b>Platform</b></li>
               <li>چارچوب <b>Framework</b></li>
               <li>سازوکار <b>Mechanism</b></li>
+              <li>شناسه <b>ID</b> <a class="wiki" target="_blank" href="https://fa.wikipedia.org/wiki/%D8%B4%D9%86%D8%A7%D8%B3%D9%87"></a></li>
               <li> <b></b></li>
             </ul>
           </div>
